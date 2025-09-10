@@ -52,10 +52,10 @@
 
         def {
             bindings = <
-&trans  &kp Q  &kp W      &kp E                 &kp R                  &kp T          &kp Y            &kp U                 &kp I      &kp O    &kp P     &trans
-&trans  &kp A  &kp S      &kp D                 &kp F                  &kp G          &kp H            &kp J                 &kp K      &kp L    &kp SEMI  &trans
-&trans  &kp Z  &kp X      &kp C                 &kp V                  &kp B          &kp N            &kp M                 &kp COMMA  &kp DOT  &kp FSLH  &trans
-               &kp LCTRL  &mt RIGHT_ALT ESCAPE  &mt RIGHT_COMMAND TAB  &lt 0 SPACE    &lt 0 BACKSPACE  &mt LEFT_SHIFT ENTER  &kp GLOBE  &kp F5
+&trans  &kp Q  &kp W      &kp E                 &kp R                  &kp T                   &kp Y          &kp U        &kp I                                 &kp O    &kp P     &trans
+&trans  &kp A  &kp S      &kp D                 &kp F                  &kp G                   &kp H          &kp J        &kp K                                 &kp L    &kp SEMI  &trans
+&trans  &kp Z  &kp X      &kp C                 &kp V                  &kp B                   &kp N          &kp M        &kp COMMA                             &kp DOT  &kp FSLH  &trans
+               &kp LCTRL  &mt RIGHT_ALT ESCAPE  &mt RIGHT_COMMAND TAB  &mt LEFT_SHIFT SPACE    &kp BACKSPACE  &lt 1 ENTER  &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &kp F5
             >;
         };
 
