@@ -61,10 +61,10 @@
 
         def {
             bindings = <
-&trans  &kp Q  &kp W      &kp E                 &kp R                  &kp T                   &kp Y        &kp U                        &kp I      &kp O         &kp P     &trans
-&trans  &kp A  &kp S      &kp D                 &kp F                  &kp G                   &kp H        &kp J                        &kp K      &kp L         &kp SEMI  &trans
-&trans  &kp Z  &kp X      &kp C                 &kp V                  &kp B                   &kp N        &kp M                        &kp COMMA  &kp DOT       &kp FSLH  &trans
-               &kp LCTRL  &mt RIGHT_ALT ESCAPE  &mt RIGHT_COMMAND TAB  &mt LEFT_SHIFT SPACE    &lt 1 ENTER  &mt RIGHT_COMMAND BACKSPACE  &lang      &mt RCTRL F5
+&trans  &kp Q  &kp W      &kp E                 &kp R                  &kp T                   &kp Y        &kp U                        &kp I               &kp O         &kp P     &trans
+&trans  &kp A  &kp S      &kp D                 &kp F                  &kp G                   &kp H        &kp J                        &kp K               &kp L         &kp SEMI  &trans
+&trans  &kp Z  &kp X      &kp C                 &kp V                  &kp B                   &kp N        &kp M                        &kp COMMA           &kp DOT       &kp FSLH  &trans
+               &kp LCTRL  &mt RIGHT_ALT ESCAPE  &mt RIGHT_COMMAND TAB  &mt LEFT_SHIFT SPACE    &lt 1 ENTER  &mt RIGHT_COMMAND BACKSPACE  &mt RIGHT_ALT CLCK  &mt RCTRL F5
             >;
         };
 
@@ -73,7 +73,7 @@
 &trans  &kp N1     &kp N2     &kp N3   &kp N4            &kp N5               &kp N6     &kp N7          &kp N8        &kp N9          &kp N0           &trans
 &trans  &kp MINUS  &kp EQUAL  &kp SQT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp COLON  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
 &trans  &kp PIPE   &kp GRAVE  &trans   &trans            &trans               &trans     &trans          &trans        &trans          &trans           &trans
-                   &trans     &trans   &trans            &kp SPACE            &trans     &trans          &trans        &trans
+                   &trans     &trans   &trans            &trans               &trans     &trans          &trans        &trans
             >;
         };
     };
